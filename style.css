@@ -59,3 +59,29 @@ h1.site-title span {
     stroke: #000;
     stroke-width: 2;
 }
+
+.white,
+.black,
+.red,
+.skyBlue {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+.white:hover,
+.black:hover,
+.red:hover,
+.skyBlue:hover {
+box-shadow: 0 12px 12px 0 rgba(255, 251, 251, 0.24), 0 17px 50px 0 rgba(255, 252, 252, 0.19); 
+
+}
+
+.black {
+  background-color: black;
+}
+.red {
+  background-color: red;
+}
+.skyBlue {
+  background-color: skyblue;
+}
